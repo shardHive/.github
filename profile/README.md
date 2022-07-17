@@ -6,6 +6,6 @@ This organization will be used to collaborate on developing a frontend integrati
 
 The objective is to write html/css/php that can send and receive data with API endpoints to The shardHive Network.
 
-
-![https://github.com/JBLarson/shardHive/blob/main/shardHive.png](https://github.com/JBLarson/shardHive/blob/main/shardHive.png)
-
+<p align="center">
+  <img src="https://github.com/JBLarson/shardHive/blob/main/shardHive.png" />
+</p>
