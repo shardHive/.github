@@ -1,23 +1,26 @@
 
-# <a href="https://github.com/shardhive/shardhiveEVM/">shardHiveEVM</a>
-
-#### First draft of documentation for the shardHiveEVM python library [shardHiveEVM.py](shardHiveEVM.py)
+# Visit the <a href="https://github.com/shardhive/shardhiveEVM/">shardHiveEVM</a> Python Library
 
 
 
 
-##### import simple functions for transferring ETH and ERC-20 tokens 
->> from shardHiveEVM import sendEther, sendAltCoin
-
-##### Send Ether
->> ex1_sendTest = sendEther(fromPublicKey, fromPrivateKey, toPublicKey, amount)
 
 
+## Simple Python Functions for Working with ETH and ERC-20 Tokens
+
+### Send Ether
+##### sendEth = sendEther(fromPublicKey, fromPrivateKey, toPublicKey, amount)
 
 
-##### Send Alt Coin
->> ex2_sendAltCoin = sendAltCoin(fromPublicKey, fromPrivateKey, toPublicKey, altCoinAddress, Amount)
 
+
+### Send ERC-20 Token
+##### sendErc20 = sendErc20Token(fromPublicKey, fromPrivateKey, toPublicKey, erc20SmartContractAddress, Amount)
+
+
+
+### Fetch ERC-20 Token Total supply
+##### fetchErc20TotalSupply = fetchErc20TotalSupply(erc20SmartContractAddress)
 
 
 
